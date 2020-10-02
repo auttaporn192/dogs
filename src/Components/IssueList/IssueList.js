@@ -8,9 +8,9 @@ constructor(props) {
     super(props);
     this.state ={
         todos : [
-            { id:1,title: "make a report", status: false },
-            { id:2,title: "weekly meeting", status: false },
-            { id:3,title: "test and deploy", status: false }
+            { id:1,title: "make a report", status: true },
+            { id:2,title: "weekly meeting", status: true },
+            { id:3,title: "test and deploy", status: true }
         ]
     }
 }
@@ -23,14 +23,45 @@ constructor(props) {
          console.log(this.state.todos)    
          this.setState({todos:issueList})
     }
+
+        const UpdateIssue = (id,title) =>{
+            const issueList = [...this.state.todos]
+            issueList.forEach(cp => {
+                console.log(id)
+                if (cp.id === id){
+                    cp.title= title
+                }
+            })
+
+            this.setState({todos:issueList})
+        }
+
+    const deleteIssue = (id) => {
+        console.log("test")
+        let issueList = [...this.state.todos]
+        issueList = issueList.filter(issue => issue.id !== id || issue.status === true)
+        issueList.forEach(cp => {
+            if(cp.id === id){
+                cp.status = false
+            }
+        })
+        this.setState({todos:issueList})
+    }   
+
+    const eliminate = (id) => {
+
+    }
+
         return (
             <>
             <div className="issue-list">
                 {
-                    this.state.todos.map(todo => (<List key={todo.id} title={todo.title} status={todo.status} />))
+                    this.state.todos.map(todo => (<List key={todo.id} title={todo.title} status={todo.status}
+                    save={UpdateIssue} todoid={todo.id} erase={deleteIssue} />))
                 }
-            </div>
+            
             <NewIssue AddIssue={AddIssue} />
+            </div>
             </>
         )
     }

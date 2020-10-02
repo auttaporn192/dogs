@@ -1,15 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
+import './newIssue.styled.css'
 
 const NewIssue = ({AddIssue}) => {
-    const handleClick  = e =>  {
+    const [title,setTitle] = useState('')
+    const handleChange = e => {
+        e.preventDefault()
+        console.log(e.target.value)
+        setTitle(e.target.value)
+    }
+    const formSubmit  = e =>  {
         e.preventDefault();
-        AddIssue("PIK") 
+        AddIssue(title) 
     }
     return (
-        <div>
-                <input type="text" placeholder="todo.." />
-                <button onClick = {handleClick}> Submit</button>
-        </div>
+        <form className="new-issue" onSubmit={formSubmit}>
+                <input type="text" placeholder="todo.." onChange={handleChange} value={title} />
+                <button> Submit</button>
+        </form>
     )
 }
 
