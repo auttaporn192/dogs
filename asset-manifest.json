@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gitdogs/static/css/main.256e5c9f.chunk.css",
-    "main.js": "/gitdogs/static/js/main.d6e8c78a.chunk.js",
-    "main.js.map": "/gitdogs/static/js/main.d6e8c78a.chunk.js.map",
+    "main.js": "/gitdogs/static/js/main.381c715d.chunk.js",
+    "main.js.map": "/gitdogs/static/js/main.381c715d.chunk.js.map",
     "runtime-main.js": "/gitdogs/static/js/runtime-main.9a4dabdb.js",
     "runtime-main.js.map": "/gitdogs/static/js/runtime-main.9a4dabdb.js.map",
     "static/js/2.0f0267e7.chunk.js": "/gitdogs/static/js/2.0f0267e7.chunk.js",
     "static/js/2.0f0267e7.chunk.js.map": "/gitdogs/static/js/2.0f0267e7.chunk.js.map",
     "index.html": "/gitdogs/index.html",
-    "precache-manifest.056f8c0df6bec2da4eabccf02781aa8a.js": "/gitdogs/precache-manifest.056f8c0df6bec2da4eabccf02781aa8a.js",
+    "precache-manifest.9f36bc4084e6a12f5dd2002f9c6ced96.js": "/gitdogs/precache-manifest.9f36bc4084e6a12f5dd2002f9c6ced96.js",
     "service-worker.js": "/gitdogs/service-worker.js",
     "static/css/main.256e5c9f.chunk.css.map": "/gitdogs/static/css/main.256e5c9f.chunk.css.map",
     "static/js/2.0f0267e7.chunk.js.LICENSE.txt": "/gitdogs/static/js/2.0f0267e7.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9a4dabdb.js",
     "static/js/2.0f0267e7.chunk.js",
     "static/css/main.256e5c9f.chunk.css",
-    "static/js/main.d6e8c78a.chunk.js"
+    "static/js/main.381c715d.chunk.js"
   ]
 }

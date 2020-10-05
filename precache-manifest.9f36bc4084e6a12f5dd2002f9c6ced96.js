@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adf8b18bf764b45e00c527bc032c7483",
+    "revision": "bdc47fba7ee02d65c0df941c55eaddaf",
     "url": "/gitdogs/index.html"
   },
   {
-    "revision": "1691d1aaaa6b2a6346eb",
+    "revision": "9fae242fd74fe3e231a8",
     "url": "/gitdogs/static/css/main.256e5c9f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gitdogs/static/js/2.0f0267e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1691d1aaaa6b2a6346eb",
-    "url": "/gitdogs/static/js/main.d6e8c78a.chunk.js"
+    "revision": "9fae242fd74fe3e231a8",
+    "url": "/gitdogs/static/js/main.381c715d.chunk.js"
   },
   {
     "revision": "5526f84eb5fec7020f16",
